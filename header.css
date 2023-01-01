@@ -1,0 +1,14 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 0 25px;
+}
+
+.list-item {
+  margin: 25px;
+}
