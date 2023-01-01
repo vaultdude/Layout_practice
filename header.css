@@ -21,9 +21,22 @@
 }
 
 .btn-item {
+  color: #fff;
   display: flex;
   align-items: center;
   border-radius: 3px;
+  border: none;
+  padding: 10px 19px 10px 14px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.btn-orange {
+  background: #ef7f04;
+}
+
+.btn-violet {
+  background: #3b3a63;
 }
 
 .img {
