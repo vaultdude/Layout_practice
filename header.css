@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 17px 0;
 }
 
 .list {
@@ -9,6 +10,22 @@
   gap: 0 25px;
 }
 
-.list-item {
-  margin: 25px;
+.link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  gap: 0 14px;
+}
+
+.btn-item {
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.img {
+  margin-right: 12px;
 }
