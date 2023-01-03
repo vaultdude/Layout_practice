@@ -1,34 +1,10 @@
 .service {
-  display: flex;
+    display: flex;
 }
 
-.service-block {
-  height: 270px;
-  width: 600px;
-  border-radius: 3px;
-}
-
-.block-title {
-}
-
-.block-text {
-  position: absolute;
-  width: 303px;
-  height: 75.25px;
-  left: 412.49px;
-  top: 964.75px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #2f2f51;
-}
-
-.block-tile {
-  background: linear-gradient(
-    90.45deg,
-    #ffffff 47.56%,
-    rgba(255, 255, 255, 0) 98.81%
-  );
+.card {
+    height: 268px;
+    width: 595px;
+    border-radius: 3px;
+    background-image: url(/assets/service/background-gradient.svg);
 }
