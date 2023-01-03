@@ -1,10 +1,21 @@
 .service {
     display: flex;
     padding: 30px;
-    flex-wrap: 30px;
+    flex-wrap: wrap;
     row-gap: 10px;
     column-gap: 10px;
     justify-content: center;
+    background-color: #F2F2F2;
+}
+
+
+.title {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin: 48px 0;
 }
 
 .card {
@@ -31,8 +42,6 @@
     font-size: 24px;
     line-height: 28px;
 }
-
-.card-icon {}
 
 .card-text {
     width: 300px;
