@@ -9,13 +9,15 @@
 }
 
 
+
 .title {
     font-family: Roboto;
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
     text-align: center;
-    margin: 48px 0;
+    padding: 48px 0;
+    background-color: #F2F2F2;
 }
 
 .card {
