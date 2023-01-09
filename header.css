@@ -1,0 +1,55 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+}
+
+.list {
+  display: flex;
+  gap: 0 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  gap: 0 14px;
+}
+
+.btn-item {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 19px 10px 14px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.btn-orange {
+  background: #ef7f04;
+}
+
+.btn-violet {
+  background: #3b3a63;
+}
+
+.img {
+  margin-right: 12px;
+}
+
+.link:hover {
+  top: 0;
+  text-decoration: overline;
+  color: #EF7F04;
+
+}
