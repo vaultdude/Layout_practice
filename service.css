@@ -24,20 +24,20 @@
     height: 268px;
     width: 595px;
     border-radius: 3px;
-    background-image: url(./assets/service/background-gradient.svg);
+    background-image: url(./assets/service/background-gradient-1.svg);
     font-family: 'Roboto';
     font-style: normal;
     color:
         #2F2F51;
 }
 
-.card-header {
+.card__header {
     display: flex;
     height: 72px;
     margin: 55px 50px 0;
 }
 
-.card-header-title {
+.card__header__title {
     width: 250px;
     margin: auto 20px;
     font-weight: 700;
@@ -45,7 +45,7 @@
     line-height: 28px;
 }
 
-.card-text {
+.card__text {
     width: 300px;
     margin: 30px 50px 0;
     font-size: 16px;
