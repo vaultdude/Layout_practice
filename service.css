@@ -21,14 +21,28 @@
 }
 
 .card {
+    position: relative;
     height: 268px;
     width: 595px;
-    border-radius: 3px;
-    background-image: url(./assets/service/background-gradient-1.svg);
     font-family: 'Roboto';
     font-style: normal;
     color:
         #2F2F51;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.card>.card__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: -1;
+    border-radius: 3px;
 }
 
 .card__header {
