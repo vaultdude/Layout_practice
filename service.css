@@ -8,36 +8,33 @@
     background-color: #F2F2F2;
 }
 
-
-
-.title {
-    font-family: Roboto;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
-    text-align: center;
-    padding: 48px 0;
-    background-color: #F2F2F2;
-}
-
 .card {
+    position: relative;
     height: 268px;
     width: 595px;
-    border-radius: 3px;
-    background-image: url(./assets/service/background-gradient.svg);
-    font-family: 'Roboto';
     font-style: normal;
     color:
         #2F2F51;
+    z-index: 1;
+    box-sizing: border-box;
 }
 
-.card-header {
+.card>.card__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.card__header {
     display: flex;
     height: 72px;
     margin: 55px 50px 0;
 }
 
-.card-header-title {
+.card-header__title {
     width: 250px;
     margin: auto 20px;
     font-weight: 700;
@@ -45,7 +42,7 @@
     line-height: 28px;
 }
 
-.card-text {
+.card__text {
     width: 300px;
     margin: 30px 50px 0;
     font-size: 16px;

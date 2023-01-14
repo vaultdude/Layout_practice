@@ -1,8 +1,16 @@
 * {
-  box-sizing: border-box;
+  margin: 0;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
+body {
+  font-family: 'Roboto';
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  padding: 28px 0;
+  background-color: #F2F2F2;
 }
