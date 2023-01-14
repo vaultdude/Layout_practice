@@ -1,3 +1,13 @@
 * {
   margin: 0;
 }
+
+.title {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  padding: 28px 0;
+  background-color: #F2F2F2;
+}

@@ -8,18 +8,6 @@
     background-color: #F2F2F2;
 }
 
-
-
-.title {
-    font-family: Roboto;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
-    text-align: center;
-    padding: 28px 0;
-    background-color: #F2F2F2;
-}
-
 .card {
     position: relative;
     height: 268px;

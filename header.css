@@ -3,7 +3,7 @@
   margin: auto;
 }
 
-.header-wrapper {
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +29,9 @@
   gap: 0 14px;
 }
 
-.btn-item {
+.btn__item {
+  width: 170px;
+  height: 40px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -38,17 +40,25 @@
   padding: 10px 19px 10px 14px;
   font-size: 13px;
   font-weight: 700;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15.23px;
 }
 
-.btn-orange {
+.btn__item>img {
+  margin-right: 12px;
+}
+
+.btn--orange {
   background: #ef7f04;
 }
 
-.btn-violet {
+.btn--violet {
   background: #3b3a63;
 }
 
-.img {
+.header__wrapper>img {
   margin-right: 12px;
 }
 
