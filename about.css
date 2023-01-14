@@ -6,12 +6,14 @@
 }
 
 .about-company__button {
+    width: 130px;
+    height: 39px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     padding: 7px 10px;
-    border-radius: 5px;
+    border-radius: 3px;
     color: #2F2F51;
     background: none;
     border: none;
@@ -20,5 +22,10 @@
 .about-company__button--active {
     background-color: #EF7F04;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 700;
+}
+
+.about-company__card {
+display: flex;
+
 }
