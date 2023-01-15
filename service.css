@@ -1,6 +1,5 @@
 .service {
     display: flex;
-    padding: 30px;
     flex-wrap: wrap;
     row-gap: 10px;
     column-gap: 10px;
@@ -13,6 +12,7 @@
     font-style: normal;
     color:
         #2F2F51;
+    box-sizing: border-box;
 }
 
 .card--set1 {
