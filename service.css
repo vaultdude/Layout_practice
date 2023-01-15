@@ -5,28 +5,41 @@
     row-gap: 10px;
     column-gap: 10px;
     justify-content: center;
-    background-color: #F2F2F2;
 }
 
 .card {
-    position: relative;
     height: 268px;
     width: 595px;
     font-style: normal;
     color:
         #2F2F51;
-    z-index: 1;
-    box-sizing: border-box;
+        border: ;
 }
 
-.card>.card__img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    z-index: -1;
-    border-radius: 5px;
+.card--set1 {
+    background-image: url(./assets/service/background-gradient-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.card--set2 {
+    background-image: url(./assets/service/background-gradient-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card--set3 {
+    background-image: url(./assets/service/background-gradient-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card--set4 {
+    background-image: url(./assets/service/background-gradient-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .card__header {
     display: flex;

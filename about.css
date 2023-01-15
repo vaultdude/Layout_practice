@@ -6,7 +6,6 @@
     display: flex;
     justify-content: center;
     column-gap: 20px;
-    background-color: #F2F2F2;
 }
 
 .about-company__button {
