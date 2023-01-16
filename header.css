@@ -1,6 +1,6 @@
-.header__top {
-  width: 60%;
-  margin: auto;
+.buttons {
+  display: flex;
+  gap: 14px;
 }
 
 .header__wrapper {
