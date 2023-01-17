@@ -13,32 +13,25 @@
     color:
         #2F2F51;
     box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card--set1 {
     background-image: url(./assets/service/background-gradient-1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .card--set2 {
     background-image: url(./assets/service/background-gradient-2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .card--set3 {
     background-image: url(./assets/service/background-gradient-3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .card--set4 {
     background-image: url(./assets/service/background-gradient-4.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
-
 
 .card__header {
     display: flex;

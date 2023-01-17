@@ -2,6 +2,11 @@
   margin: 0;
 }
 
+header {
+  width: 60%;
+  margin: auto;
+}
+
 .main {
   width: 65%;
   margin: auto;
