@@ -40,7 +40,7 @@
     color: #FFFFFF;
 }
 
-.form-cars {
+.form-card {
     display: flex;
     column-gap: 60px;
     padding-top: 20px;
@@ -80,15 +80,6 @@
     line-height: 16px;
 }
 
-.input-checkbox {
-    background-color: #E2E2E2;
-    border: 0;
-    border-radius: 3px;
-    width: 25px;
-    height: 25px;
-
-}
-
 .privacy-policy {
     font-weight: 400;
     font-size: 12px;
@@ -99,10 +90,6 @@
     justify-content: center;
 }
 
-.privacy-policy-link {
-    text-decoration: none;
-    color: #4B67AF;
-}
 
 .order-btn {
     background-color: #EF7F04;
@@ -150,4 +137,48 @@
 
 :-ms-input-placeholder {
     color: #424268;
+}
+
+.custom-checkbox {
+    width: 320px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(checked) {
+    display: none;
+
+}
+
+input[type="checkbox"]:checked+label,
+input[type="checkbox"]:not(checked)+label {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+input[type="checkbox"]:checked+label:before,
+input[type="checkbox"]:not(checked)+label:before {
+    content: "";
+    height: 25px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #E2E2E2;
+    position: absolute;
+    top: 0;
+    left: -42px;
+}
+
+input[type="checkbox"]:checked+label:after {
+    content: url(./assets/header/done-v.svg);
+    position: absolute;
+    top: 0;
+    left: -42px;
+    background-repeat: no-repeat;
+}
+
+input[type="checkbox"]:not(checked)+label:after {
+    content: "";
 }
