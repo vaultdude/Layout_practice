@@ -114,13 +114,6 @@
     bottom: 30px;
 }
 
-
-@media (max-width: 992px) {
-    .form-box-order {
-        display: none;
-    }
-}
-
 ::-webkit-input-placeholder {
     color: #424268;
 }
@@ -181,4 +174,10 @@ input[type="checkbox"]:checked+label:after {
 
 input[type="checkbox"]:not(checked)+label:after {
     content: "";
+}
+
+@media (max-width: 992px) {
+    .form-box-order {
+        display: none;
+    }
 }

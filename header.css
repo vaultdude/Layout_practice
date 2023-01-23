@@ -40,24 +40,6 @@ header {
   text-decoration: none;
 }
 
-@media (max-width: 992px) {
-  .header__wrapper {
-    justify-content: space-between;
-  }
-
-  .header__wrapper>ul {
-    display: none;
-  }
-
-  .fa-solid,
-  .fa-bars {
-    display: block;
-    font-size: 50px;
-    padding-right: 44px;
-    color: #ef7f04;
-  }
-}
-
 .btn {
   display: flex;
   gap: 0 14px;
@@ -98,4 +80,22 @@ header {
   text-decoration: overline;
   color: #EF7F04;
 
+}
+
+@media (max-width: 992px) {
+  .header__wrapper {
+    justify-content: space-between;
+  }
+
+  .header__wrapper>ul {
+    display: none;
+  }
+
+  .fa-solid,
+  .fa-bars {
+    display: block;
+    font-size: 50px;
+    padding-right: 44px;
+    color: #ef7f04;
+  }
 }
