@@ -86,3 +86,33 @@
     font-size: 16px;
     line-height: 26px;
 }
+
+
+.about-company {
+    display: flex;
+    padding-top: 35px;
+}
+
+.about-company_logo {
+    width: 199px;
+    height: 140px;
+
+}
+
+.about-company_text {
+    align-self: end;
+    height: auto;
+    line-height: 22px;
+}
+
+.about-company_description {
+    display: flex;
+    padding: 52px;
+    width: 50%;
+    background-color: #ffffff;
+
+}
+
+.about-company_img {
+    width: 50%;
+}
