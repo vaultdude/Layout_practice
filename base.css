@@ -2,14 +2,15 @@
   margin: 0;
 }
 
-header {
-  width: 60%;
+.main {
+  width: 1200px;
   margin: auto;
 }
 
-.main {
-  width: 65%;
-  margin: auto;
+@media (max-width: 1024px) {
+  .main {
+    width: 100%;
+  }
 }
 
 body {
@@ -22,5 +23,5 @@ body {
   font-weight: 700;
   line-height: 28px;
   text-align: center;
-  padding: 28px 0;
+  padding: 67px 0;
 }

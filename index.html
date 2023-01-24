@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./base.css" />
     <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./form.css" />
     <link rel="stylesheet" href="./service.css" />
     <link rel="stylesheet" href="./about.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
@@ -19,9 +27,12 @@
   </head>
 
   <body>
-    <header class="header__top">
+    <header>
       <div class="header__wrapper">
-        <img src="./assets/logo.svg" />
+        <div class="buttons">
+          <i class="fa-solid fa-bars"></i>
+          <img src="./assets/logo.svg" />
+        </div>
         <ul class="list">
           <li class="list__item">
             <a href="" class="link">Услуги</a>
@@ -59,8 +70,94 @@
       </div>
     </header>
 
-    <h2 class="title">Наши услуги</h2>
+    <div class="form">
+      <div class="form-inside">
+        <div class="form-box-text">
+          <p class="form-name">Окна Хаус -</p>
+          <h1 class="form-caption">
+            <p>Профессиональный подход</p>
+            <p>к остеклению</p>
+          </h1>
+          <div class="form-card">
+            <div class="card-box">
+              <div class="card-form-header">
+                <img src="./assets/header/img-form1.svg" />
+              </div>
+              <p class="form-text">
+                Современные окна и балконные конструкции по доступным ценам
+              </p>
+            </div>
+            <div class="card-box">
+              <div class="card-form-header">
+                <img src="./assets/header/img-form2.svg" />
+              </div>
+              <p class="form-text">
+                Квалифицированный подход к решению задач любой сложности
+              </p>
+            </div>
+            <div class="card-box">
+              <div class="card-form-header">
+                <img src="./assets/header/img-form3.svg" />
+              </div>
+              <p class="form-text">
+                Гарантия высочайшего качества нашей продукции
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="form-box-order">
+          <h5 class="title-order">Вызвать замерщика на дом</h5>
+          <ul class="user-order">
+            <li>
+              <label for="user-name"></label>
+              <input
+                type="text"
+                id="user-name"
+                placeholder="Представьтесь, пожалуйста"
+                class="input-text"
+              />
+            </li>
+            <li>
+              <label for="user-phone"></label>
+              <input
+                type="text"
+                id="user-phone"
+                placeholder="Номер телефона"
+                class="input-text"
+              />
+            </li>
+            <li>
+              <label for="user-email"></label>
+              <input
+                type="text"
+                id="user-email"
+                placeholder="E-mail"
+                class="input-text"
+              />
+            </li>
+
+            <li>
+              <div class="custom-checkbox">
+                <input id="checkbox" type="checkbox" />
+                <label for="checkbox">
+                  Согласен на обработку персональных данных в соответствии с
+                  <a href="#">политикой конфиденциальности</a>
+                </label>
+              </div>
+            </li>
+          </ul>
+          <div class="button-form-order">
+            <button class="order-btn">Отправить заявку</button>
+          </div>
+
+          <img class="img-roulette" src="./assets/header/form-roulette.svg" />
+        </div>
+      </div>
+    </div>
+
     <div class="main">
+      <h2 class="title">Наши услуги</h2>
+
       <div class="service">
         <div class="card card--set1">
           <div class="card__header">
@@ -122,10 +219,9 @@
           </p>
         </div>
       </div>
-    </div>
 
-    <h2 class="title">О компании</h2>
-    <div class="about-company">
+      <h2 class="title">О компании</h2>
+
       <div class="about-company__buttons">
         <button class="about-company__button about-company__button--active">
           Описание
@@ -135,18 +231,82 @@
         <button class="about-company__button">Сертификаты</button>
       </div>
 
-      <div class="about-company__card">
-        <div class="about-company__card__text">
-          <img src="./assets/about/logo.png" />
-          <p>
-            Мы помогаем клиентам подбирать решения, учитывая пожежелания к
-            характеристикам окна и его стоимости. Окно - это объект, которым Вы
-            будете пользоваться много лет, поэтому для нас очень важно, чтобы Вы
-            сделали правильный выбор.
-          </p>
+      <div class="about-company">
+        <div class="about-card">
+          <div class="about-company_descript">
+            <img class="logo" src="./assets/about/logo.png" alt="logo" />
+            <p>
+              Мы помогаем клиентам подбирать решения, учитывая пожежелания к
+              характеристикам окна и его стоимости. Окно - это объект, которым
+              Вы будете пользоваться много лет, поэтому для нас очень важно,
+              чтобы Вы сделали правильный выбор.
+            </p>
+          </div>
+          <img
+            class="poster"
+            src="./assets/about/background.png"
+            alt="about-1"
+          />
         </div>
-        <img src="./assets/about/background.png" />
+      </div>
+
+      <div class="about-company-benefit">
+        <div class="company-benefit">
+          <div class="company-benefit-item">
+            <img src="./assets/about/prof-icon.svg" />
+            <div class="benefit">
+              <h3>Профессионализм</h3>
+              <p>Бригада профессиональных мастеров по монтажу и обслуживанию</p>
+            </div>
+          </div>
+          <div class="company-benefit-item">
+            <img src="./assets/header/img-form1.svg" />
+            <div class="benefit">
+              <h3>Ценообразование</h3>
+              <p>Лучшие цены на рынке пластиковых окон</p>
+            </div>
+          </div>
+          <div class="company-benefit-item">
+            <img src="./assets/about/contract-icon.svg" />
+            <div class="benefit">
+              <h3>Мобильность</h3>
+              <p>Заключение договора на дому</p>
+            </div>
+          </div>
+          <div class="company-benefit-item">
+            <img src="./assets/about/loyalty-icon.svg" />
+            <div class="benefit">
+              <h3>Лояльность</h3>
+              <p>99% клиентов рекомендуют нас своим друзьям</p>
+            </div>
+          </div>
+          <div class="company-benefit-item">
+            <img src="./assets/about/fast-work-icon.svg" />
+            <div class="benefit">
+              <h3>Скорость</h3>
+              <p>Короткие сроки установки изделий</p>
+            </div>
+          </div>
+          <div class="company-benefit-item">
+            <img src="./assets/about/quality-control.svg" />
+            <div class="benefit">
+              <h3>Служба качества</h3>
+              <p>Безупречное качество и контроль изделий ПВХ</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn__item btn--orange">
+          <img class="img" src="assets/header/icon1.svg" />Оформить заявку на
+          замер
+        </button>
       </div>
     </div>
   </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+    integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
 </html>

@@ -42,5 +42,99 @@
     font-weight: 400;
     line-height: 22px;
     text-align: left;
+}
 
+
+.about-company {
+    margin: 50px auto;
+    width: 1200px;
+}
+
+.about-card {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.about-card>.about-company_descript {
+    width: 50%;
+    position: relative;
+}
+
+.about-card>.about-company_descript>.logo {
+    width: 150px;
+    margin: 30px;
+}
+
+.about-card>.about-company_descript>p {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 350px;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 22px;
+}
+
+.about-card>.poster {
+    width: 50%;
+}
+
+@media screen and (max-width: 980px) {
+    .about-company {
+        width: 800px;
+    }
+
+    .about-card>.about-company_descript>.logo {
+        width: 100px;
+    }
+
+    .about-card>.about-company_descript>p {
+        bottom: 10px;
+        right: 10px;
+        width: 300px;
+        font-size: .8em;
+    }
+}
+
+.about-company-benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 68px 0 70px;
+}
+
+.company-benefit {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-bottom: 50px;
+}
+
+.company-benefit-item {
+    display: flex;
+    align-items: center;
+}
+
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    width: 215px;
+    padding-left: 23px;
+    max-height: 77px;
+}
+
+.benefit>h3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.benefit>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
