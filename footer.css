@@ -1,0 +1,28 @@
+footer {
+    background-color: #2F2F51;
+    color: white;
+    padding: 55px 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__company-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer__links:hover {
+    cursor: pointer;
+}

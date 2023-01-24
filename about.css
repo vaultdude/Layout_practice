@@ -80,22 +80,6 @@
     width: 50%;
 }
 
-@media screen and (max-width: 980px) {
-    .about-company {
-        width: 800px;
-    }
-
-    .about-card>.about-company_descript>.logo {
-        width: 100px;
-    }
-
-    .about-card>.about-company_descript>p {
-        bottom: 10px;
-        right: 10px;
-        width: 300px;
-        font-size: .8em;
-    }
-}
 
 .about-company-benefit {
     display: flex;
@@ -137,4 +121,21 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+}
+
+@media screen and (max-width: 980px) {
+    .about-company {
+        width: 100%;
+    }
+
+    .about-card>.about-company_descript>.logo {
+        width: 100px;
+    }
+
+    .about-card>.about-company_descript>p {
+        bottom: 10px;
+        right: 10px;
+        width: 300px;
+        font-size: .8em;
+    }
 }

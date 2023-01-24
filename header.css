@@ -3,12 +3,6 @@ header {
   margin: 0 auto;
 }
 
-@media (max-width: 1600px) {
-  header {
-    width: 90%;
-  }
-}
-
 .header__wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -19,6 +13,11 @@ header {
 .fa-solid,
 .fa-bars {
   display: none;
+}
+
+.fa-solid,
+.fa-bars:hover {
+  opacity: 0.5;
 }
 
 .buttons {
@@ -80,6 +79,12 @@ header {
   text-decoration: overline;
   color: #EF7F04;
 
+}
+
+@media (max-width: 1600px) {
+  header {
+    width: 90%;
+  }
 }
 
 @media (max-width: 992px) {
