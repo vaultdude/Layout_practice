@@ -22,15 +22,6 @@
     font-weight: 700;
 }
 
-.about-company__card {
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    height: 461px;
-    background-color: #ffffff;
-    margin: 35px auto;
-}
-
 .about-company__card__text>img {
     margin: 46px 50px;
 }
