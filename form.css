@@ -110,8 +110,8 @@
 
 .img-roulette {
     position: relative;
-    right: 88px;
-    bottom: 30px;
+    right: 10px;
+    bottom: 4px;
 }
 
 ::-webkit-input-placeholder {
