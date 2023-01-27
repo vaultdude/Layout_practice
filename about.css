@@ -22,6 +22,7 @@
     font-weight: 700;
 }
 
+
 .about-company__card {
     display: flex;
     justify-content: space-between;
@@ -120,6 +121,7 @@
     font-size: 16px;
     line-height: 26px;
 }
+
 
 @media screen and (max-width: 980px) {
     .about-company {
