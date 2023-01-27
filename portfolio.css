@@ -1,0 +1,40 @@
+.portfolio-wrapper {
+    background-color: white;
+    padding: 48px 88px;
+}
+
+.portfolio__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2F2F51;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-windows {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    gap: 44px;
+}
+
+.portfolio_img {
+    max-width: 215px;
+    max-height: 215px;
+    border-radius: 3px;
+}
+
+@media (max-width: 990px) {
+    .portfolio_img_none {
+        display: none;
+    }
+
+    .portfolio-windows {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+        gap: 20px;
+    }
+
+}

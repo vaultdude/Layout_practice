@@ -110,15 +110,8 @@
 
 .img-roulette {
     position: relative;
-    right: 88px;
-    bottom: 30px;
-}
-
-
-@media (max-width: 992px) {
-    .form-box-order {
-        display: none;
-    }
+    right: 10px;
+    bottom: 4px;
 }
 
 ::-webkit-input-placeholder {
@@ -181,4 +174,10 @@ input[type="checkbox"]:checked+label:after {
 
 input[type="checkbox"]:not(checked)+label:after {
     content: "";
+}
+
+@media (max-width: 992px) {
+    .form-box-order {
+        display: none;
+    }
 }

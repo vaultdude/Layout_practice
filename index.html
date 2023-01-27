@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./form.css" />
     <link rel="stylesheet" href="./service.css" />
     <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="./portfolio.css" />
+    <link rel="stylesheet" href="./faq.css" />
+    <link rel="stylesheet" href="./footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -150,7 +153,7 @@
             <button class="order-btn">Отправить заявку</button>
           </div>
 
-          <img class="img-roulette" src="./assets/header/form-roulette.svg" />
+          <img class="img-roulette" src="./assets/header/ruller.png" />
         </div>
       </div>
     </div>
@@ -223,9 +226,7 @@
       <h2 class="title">О компании</h2>
 
       <div class="about-company__buttons">
-        <button class="about-company__button about-company__button--active">
-          Описание
-        </button>
+        <button class="about-company__button">Описание</button>
         <button class="about-company__button">Как мы работаем</button>
         <button class="about-company__button">Отзывы</button>
         <button class="about-company__button">Сертификаты</button>
@@ -296,11 +297,133 @@
           </div>
         </div>
         <button class="btn__item btn--orange">
-          <img class="img" src="assets/header/icon1.svg" />Оформить заявку на
+          <img class="img" src="./assets/header/icon1.svg" />Оформить заявку на
           замер
         </button>
       </div>
+
+      <div class="portfolio">
+        <div class="portfolio-wrapper">
+          <h2 class="portfolio__title">Портфолио</h2>
+
+          <div class="portfolio-windows">
+            <img
+              src="./assets/porfolio/port1.png"
+              alt="Window1"
+              class="portfolio_img"
+            />
+            <img
+              src="./assets/porfolio/port2.jpg"
+              alt="Window2"
+              class="portfolio_img"
+            />
+            <img
+              src="./assets/porfolio/port3.png"
+              alt="Window3"
+              class="portfolio_img"
+            />
+            <img
+              src="./assets/porfolio/port4.png"
+              alt="Window4"
+              class="portfolio_img portfolio_img_none"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="qna-wrapper">
+        <h2 class="qna-title">Вопрос-ответ</h2>
+
+        <div class="qna-list">
+          <div class="qna-details">
+            <details class="faq__details">
+              <summary class="faq__summary">
+                Сколько по времени занимает изготовление пластиковых окон?
+              </summary>
+              <span class="faq__text">
+                Нет, команда мастеров все сами аккуратно доставят и внесут.
+              </span>
+            </details>
+          </div>
+
+          <div class="qna-details">
+            <details class="faq__details">
+              <summary class="faq__summary">
+                Какие существуют способы оплаты?
+              </summary>
+              <span class="faq__text">
+                Нет, команда мастеров все сами аккуратно доставят и внесут.
+              </span>
+            </details>
+          </div>
+
+          <div class="qna-details">
+            <details class="faq__details">
+              <summary class="faq__summary">
+                Где я могу посмотреть образцы?
+              </summary>
+              <span class="faq__text">
+                Нет, команда мастеров все сами аккуратно доставят и внесут.
+              </span>
+            </details>
+          </div>
+
+          <div class="qna-details">
+            <details class="faq__details">
+              <summary class="faq__summary">
+                Зачем вызывать замерщика? Я могу дать размеры
+              </summary>
+              <span class="faq__text">
+                Нет, команда мастеров все сами аккуратно доставят и внесут.
+              </span>
+            </details>
+          </div>
+
+          <div class="qna-details">
+            <details class="faq__details">
+              <summary class="faq__summary">
+                Хотелось бы отделать балкон. Поможете?
+              </summary>
+              <span class="faq__text">
+                Нет, команда мастеров все сами аккуратно доставят и внесут.
+              </span>
+            </details>
+          </div>
+
+          <div class="qna-details">
+            <details class="faq__details">
+              <summary class="faq__summary">
+                Мне надо нанимать грузчиков для подъема?
+              </summary>
+              <span class="faq__text">
+                Нет, команда мастеров все сами аккуратно доставят и внесут.
+              </span>
+            </details>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer__company-box">
+          <div class="footer__company-logo">
+            <img
+              src="./assets/faq_footer/footer__logo.svg"
+              alt="Логотип"
+              srcset=""
+            />
+          </div>
+          <div class="footer__company-name">
+            <p>© ООО “Окна Хаус”, 2011 - 2022</p>
+          </div>
+        </div>
+        <div class="footer__links">
+          <p>Политика кофиденциальности</p>
+          <p>Пользовательское соглашение</p>
+        </div>
+      </div>
+    </footer>
   </body>
 
   <script
